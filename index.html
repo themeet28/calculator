@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="CalcStyle.css">
+    <h1 style=
+    "font-family: 'Enriqueta'; 
+    line-height: 1.25;
+    margin: 0 0 10px; 
+    font-size: 40px; 
+    font-weight: bold;
+    color: white;
+    background-color: black;">
+    Calculator</h1>
+</head>
+<body>
+    <div class="calculator">
+
+    <script src="calc.js"> </script>
+    <input class="calculator-screen" type="text" id="calc" disabled >
+    <div class="calculator-keys">
+    <input type="button" value="1" onclick='myinput(1)'>    
+    <input type="button" value="2" onclick='myinput(2)'>
+    <input type="button" value="3" onclick='myinput(3)'>
+    <input type="button" value="+" onclick='myinput("+")'>
+    <input type="button" value="4" onclick='myinput(4)'> 
+    <input type="button" value="5" onclick='myinput(5)'>   
+    <input type="button" value="6" onclick='myinput(6)'>
+    <input type="button" value="*" onclick='myinput("*")'>
+    <input type="button" value="7" onclick='myinput(7)'>    
+    <input type="button" value="8" onclick='myinput(8)'>  
+    <input type="button" value="9" onclick='myinput(9)'>
+    <input type="button" value="-" onclick='myinput("-")'>
+    <input type="button" value="0" onclick='myinput(0)'>  
+    <input type="button" value="." onclick='myinput(".")'>
+    <input type="button" value="%" onclick='myinput("%")'>
+    <input type="button" value="/" onclick='myinput("/")'>
+    <input type="button" value="=" onclick='solve()'>
+    <input type="button" value="clear" onclick='input("")'>
+</div>
+</div>
+
+</body>
+</html>
